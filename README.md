@@ -70,19 +70,87 @@ Array.last()
 ```
 
 # [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=blue&repeat=false&width=435&lines=🪄+Example+For+v14)](#)
+
+<h2>.bannerURL()</h2>
+
 ```js
-const { VanityClient }= require("discord-url")
-const urlClient = new VanityClient("Self Token","Guild ID",true)
+// member.bannerURL() or user.bannerURL()
 
-urlClient.setVanityURL("luppux");
+client.on("messageCreate",async(message) => {
+if(message.content.includes(".banner")){
 
-urlClient.on("VanitySuccess", async(response) => {
-console.log(`URL ${response.vanityURL} Successfully Received!`);
+let embed = new EmbedBuilder()
+.setImage(await message.member.bannerURL({dynamic:true,size:2048}))
+.setDescription(`${message.author.tag}`)
+
+message.reply({embeds:[embed});
+}
 })
+```
 
-urlClient.on('VanityError', async(error) => {
-console.log(`An Error Occurred While Retrieving URL!\nError; ${error}`);
+<h2>.hasRole()</h2>
+
+```js
+client.on("messageCreate",async(message) => {
+
+if(message.content.includes(".delete") && message.member.hasRole("roleId")){
+message.channel.bulkDelete(100);
+
+}
 })
+```
+
+<h2>.join()</h2>
+
+```js
+client.on("ready",async() => {
+
+let channel = client.channels.cache.get("voiceChannelId");
+channel.join({selfDeaf:true,selfMute:false});
+
+})
+```
+
+<h2>.delete()</h2>
+
+```js
+client.on("messageCreate",async(message) => {
+if(message.content.includes("hi")){
+message.reply({content:"Hi, How Are You?}).delete(5000);
+}
+})
+```
+
+<h2>.splitMessage()</h2>
+
+```js
+let numbers = "123456789....."
+let value = numbers.splitMessage(5);
+for (message of value) {
+console.log(message); // first returning; "12345" , second returning; "678910"; 
+}
+
+```
+
+<h2>.listRoles()</h2>
+
+```js
+let arrayRoles = ["928259219038302258","852103749228036136","341592492224806914"];
+console.log(arrayRoles.listRoles("ands")); // return; <@&928259219038302258>,<@&852103749228036136> ands <@&341592492224806914>
+```
+
+<h2>.random()</h2>
+
+```js
+let usersId = ["928259219038302258","852103749228036136","341592492224806914"];
+console.log(usersId.random()); // return; 852103749228036136
+```
+
+<h2>.last()</h2>
+
+```js
+let usersId = ["928259219038302258","852103749228036136","341592492224806914"];
+console.log(usersId.last()); // return; 341592492224806914
 ```
 
 <br> <br/>

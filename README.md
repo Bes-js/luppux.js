@@ -159,3 +159,32 @@ console.log(usersId.last()); // return; 341592492224806914
 [![Discord Banner](https://api.weblutions.com/discord/invite/luppux/)](https://discord.gg/luppux)
 <br> </br>
 <a href="https://www.buymeacoffee.com/beykant" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="120px" height="30px" alt="Buy Me A Coffee"></a>
+
+<br> <br/>
+# [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=9D06E6&repeat=false&width=435&lines=😉+Contributors)](#)
+<table>
+  <tr>
+  <td align="center"><a href="https://github.com/Bes-js"><img src="https://avatars.githubusercontent.com/u/89789101?v=4" width="100px;" alt=""/><br /><sub><b>Five So Beş</b></sub></a><br /><a href="Five So Beş" title="Luppux">⚕️</a></td>
+<td align="center"><a href="https://github.com/luluwux"><img src="https://avatars.githubusercontent.com/u/87658293?v=4" width="100px;" alt=""/><br /><sub><b>Lulushu</b></sub></a><br /><a href="Lulushu" title="Luppux">⚕️</a></td>
+<td align="center"><a href="https://github.com/Approval-Denial"><img src="https://avatars.githubusercontent.com/u/74969246?v=4" width="100px;" alt=""/><br /><sub><b>Approval</b></sub></a><br /><a href="Approval" title="Luppux">⚕️</a></td>
+<td align="center"><a href="https://github.com/utw0"><img src="https://avatars.githubusercontent.com/u/74924310?v=4" width="100px;" alt=""/><br /><sub><b>Luhux</b></sub></a><br /><a href="Luhux" title="Luppux">⚕️</a></td>
+  </tr>
+</table>
+<table>
+  <tr>
+  <td align="center"><a href="https://github.com/ertucuk"><img src="https://avatars.githubusercontent.com/u/68440024?v=4" width="100px;" alt=""/><br /><sub><b>ertu</b></sub></a><br /><a href="ertu" title="Luppux">⚕️</a></td>
+<td align="center"><a href="https://github.com/kaanxsrd"><img src="https://avatars.githubusercontent.com/u/94650814?v=4" width="100px;" alt=""/><br /><sub><b>Lethh</b></sub></a><br /><a href="Lethh" title="Luppux">⚕️</a></td>
+<td align="center"><a href="https://github.com/cranedevs"><img src="https://avatars.githubusercontent.com/u/125387403?v=4" width="100px;" alt=""/><br /><sub><b>Crane</b></sub></a><br /><a href="Crane" title="Luppux">⚕️</a></td>
+<td align="center"><a href="https://github.com/pikushe"><img src="https://avatars.githubusercontent.com/u/89347562?v=4" width="100px;" alt=""/><br /><sub><b>Piku</b></sub></a><br /><a href="Piku" title="Luppux">⚕️</a></td>
+  </tr>
+</table>
+
+<br> <br/>
+<br> <br/>
+# [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=9D06E6&repeat=false&width=435&lines=😑+Eris)](#)
+
+<table>
+  <tr>
+  <td align="center"><a href="https://github.com/ArviSlayer"><img src="https://avatars.githubusercontent.com/u/69751083?v=4" width="100px;" alt=""/><br /><sub><b>Arvis</b></sub></a><br /><a href="Arvis" title="Luppux">⚕️</a></td>
+  </tr>
+</table>

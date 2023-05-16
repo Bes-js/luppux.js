@@ -26,7 +26,7 @@ yarn add luppux.js
 
 For **CommonJS**
 ```javascript
-const { Luppux, YamlDatabase, JsonDatabase }= require("luppux.js");
+const { Luppux, YamlDatabase, JsonDatabase } = require("luppux.js");
 Luppux({client:client,database:{type:YamlDatabase,databasePath:"./luppuxdb.yml"}});
 ```
 

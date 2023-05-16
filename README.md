@@ -40,18 +40,32 @@ Luppux({client:client,database:{type:YamlDatabase,databasePath:"./luppuxdb.yml"}
 
 <a href="https://discord.gg/luppux" target="_blank">Click Here To Get Support!</a>
 ```javascript
-# Function
+# Database Functions
 
-await Member.bannerURL(options) - options: {dynamic:Boolean,size:Number,format:String}
-Member.hasRole(roleId) //
-await User.bannerURL(options) - options: {dynamic:Boolean,size:Number,format:String}
-VoiceChannel.join(options) - options: {selfDeaf:Boolean,selfMute:Boolen}
-Collection.array() //
-Message.delete(ms) //
-Value.splitMessage(count) //
-Array.listRoles(lastMessage) //
-Array.random() //
-Array.last() //
+// Docs; https://fivesobes.gitbook.io/five.db/jsondatabase
+client.db.set()
+client.db.has()
+client.db.get() / client.db.fetch()
+client.db.add()
+client.db.substr()
+client.db.push()
+client.db.pull()
+client.db.delete()
+client.db.all()
+client.db.findOneAndDelete()
+
+# Prototypes
+
+await Member.bannerURL(options) - options: {dynamic:Boolean,size:Number,format:String} // default:{format:"png",size:512}
+Member.hasRole(roleId) // default:null
+await User.bannerURL(options) - options: {dynamic:Boolean,size:Number,format:String} // default:{format:"png",size:512}
+VoiceChannel.join(options) - options: {selfDeaf:Boolean,selfMute:Boolen} // default:{selfDeaf:false,selfMute:false}
+Collection.array() 
+Message.delete(ms) - ms: Number // default:null
+Value.splitMessage(count) - count: Number // default:null
+Array.listRoles(lastMessage) - lastMessage: String // default:"and"
+Array.random()
+Array.last()
 
 ```
 
